@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Super solutions</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/background.css" rel="stylesheet" type="text/css">
+	<link href="css/widgets-bar.css" rel="stylesheet" type="text/css">
+	<link href="css/pop-up.css" rel="stylesheet" type="text/css">
+	<link href="css/tools.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="css/arrow.css" rel="stylesheet" type="text/css">
+
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="js/pop-up.js"></script>
+	<script type="text/javascript" src="js/google-map.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/scroll-up.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="header-image">
+			<img id="header-image-mobile" src="images/lena-orwig-491520-unsplash.jpg" />
+		</div>
+	</header>
+	<div class="bottom-bar">
+		<nav id="widgets" class="widgets">
+			<!--http://jsfiddle.net/j4re8kyn/-->
+			<button class="widget widget-about wow zoomIn" data-wow-delay="0s">
+				<h3 class="widget-title">About</h3>
+			</button>
+			<button class="widget widget-values wow zoomIn" data-wow-delay=".1s">
+				<h3 class="widget-title">Core Values</h3>
+			</button>
+			<button class="widget widget-services wow zoomIn" data-wow-delay=".2s">
+				<h3 class="widget-title">Services</h3>
+			</button>
+			<button class="widget widget-clients wow zoomIn" data-wow-delay=".3s">
+				<h3 class="widget-title">Our Clients</h3>
+			</button>
+			<button class="widget widget-contact wow zoomIn" data-wow-delay=".4s">
+				<h3 class="widget-title">Contact</h3>
+			</button>
+		</nav>
+	</div>
+	<div id="pop-up" class="pop-up">
+		<div id="pop-up-background" class="pop-up-background"></div>
+
+		<div id="pop-up-container" class="pop-up-container">
+			<button id="pop-up-close-button" class="no-select pop-up-close-button">X</button>
+			<div id="pop-up-header" class="pop-up-header">
+				<h2 class="pop-up-title">Pop-up Title</h2>
+			</div>
+			<div class="pop-up-content pop-up-about" id="pop-up-content-about">
+				<p class="wow fadeInLeft" data-wow-delay="0s">
+					Become out partner and let us find
+					<span class="highlight">solutions for your business</span>.
+				</p>
+				<p class="wow fadeInLeft" data-wow-delay=".1s">
+					We're super creative and will
+					<span
+					 class="highlight">enhance your current position</span>by finding a working strategy for your
+					<span class="highlight">growth</span>.
+				</p>
+				<p class="wow fadeInLeft" data-wow-delay=".2s">
+					We turn problems into
+					<span class="highlight">opportunities</span>.
+				</p>
+				<p class="wow fadeInLeft" data-wow-delay=".3s">
+					<button id="contact-button" class="highlight" href="#">Connect</button> with us, and find out for yourself.
+				</p>
+			</div>
+			<div class="pop-up-content pop-up-values" id="pop-up-content-values">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut vestibulum libero. In fringilla sollicitudin nibh quis hendrerit. Vivamus sit amet scelerisque magna. Morbi imperdiet magna sit amet metus elementum, accumsan sollicitudin leo tincidunt. Vestibulum fermentum porta interdum. In a ornare urna, ut pharetra leo. Nullam blandit et justo et molestie. Nam euismod justo nunc, vitae rhoncus tellus maximus a. Sed sollicitudin massa in sem porta, ut malesuada arcu tempus. In lacinia nunc nec augue dignissim, a venenatis leo laoreet. Nulla gravida hendrerit dui, nec pretium ante mollis vitae. Nullam euismod libero mi, a fermentum tortor lobortis ut. Donec facilisis dui sit amet nunc ultricies venenatis. Suspendisse varius in risus nec dictum.
+					<br><br>
+					Sed tortor eros, tincidunt in pharetra at, congue eget tellus. Ut nec magna in elit posuere vulputate. Vivamus sit amet orci vestibulum, bibendum ligula eget, pharetra magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sodales, est non faucibus tincidunt, eros diam tincidunt leo, vitae pharetra risus justo sed magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla id sodales eros. Integer viverra erat est, id sollicitudin tellus tristique nec. Pellentesque ut metus nec dui molestie facilisis eu ut felis. Nam porttitor sodales egestas. Proin non nisi libero. Fusce ultrices tincidunt urna eget aliquet.
+					<br><br>
+					Sed tortor eros, tincidunt in pharetra at, congue eget tellus. Ut nec magna in elit posuere vulputate. Vivamus sit amet orci vestibulum, bibendum ligula eget, pharetra magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sodales, est non faucibus tincidunt, eros diam tincidunt leo, vitae pharetra risus justo sed magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla id sodales eros. Integer viverra erat est, id sollicitudin tellus tristique nec. Pellentesque ut metus nec dui molestie facilisis eu ut felis. Nam porttitor sodales egestas. Proin non nisi libero. Fusce ultrices tincidunt urna eget aliquet.
+			</div>
+			<div class="pop-up-content pop-up-services" id="pop-up-content-services">
+				<ul>
+					<li class="wow flipInX" data-wow-delay="0s">Consulting</li>
+					<li class="wow flipInX" data-wow-delay=".05s">Strategic Marketing</li>
+					<li class="wow flipInX" data-wow-delay=".1s">Being amazing</li>
+					<li class="wow flipInX" data-wow-delay=".15s">Copywriting</li>
+					<li class="wow flipInX" data-wow-delay=".2s">Branding</li>
+					<li class="wow flipInX" data-wow-delay=".25s">Dancing in the sun</li>
+					<li class="wow flipInX" data-wow-delay=".3s">Making friends</li>
+					<li class="wow flipInX" data-wow-delay=".35s">Risk Assessments</li>
+					<li class="wow flipInX" data-wow-delay=".4s">Jumping through hoops</li>
+					<li class="wow flipInX" data-wow-delay=".45s">Visual Social Marketing</li>
+					<li class="wow flipInX" data-wow-delay=".5s">Implementation Methods</li>
+					<li class="wow flipInX" data-wow-delay=".55s">SEO</li>
+					<li class="wow flipInX" data-wow-delay=".6s">Vitamin B</li>
+					<li class="wow flipInX" data-wow-delay=".65s">Marketing Retainers</li>
+				</ul>
+			</div>
+			<div class="pop-up-content pop-up-clients" id="pop-up-content-clients">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut vestibulum libero. In fringilla sollicitudin nibh quis hendrerit. Vivamus sit amet scelerisque magna. Morbi imperdiet magna sit amet metus elementum, accumsan sollicitudin leo tincidunt. Vestibulum fermentum porta interdum. In a ornare urna, ut pharetra leo. Nullam blandit et justo et molestie. Nam euismod justo nunc, vitae rhoncus tellus maximus a. Sed sollicitudin massa in sem porta, ut malesuada arcu tempus. In lacinia nunc nec augue dignissim, a venenatis leo laoreet. Nulla gravida hendrerit dui, nec pretium ante mollis vitae. Nullam euismod libero mi, a fermentum tortor lobortis ut. Donec facilisis dui sit amet nunc ultricies venenatis. Suspendisse varius in risus nec dictum.
+					<br><br>
+					Sed tortor eros, tincidunt in pharetra at, congue eget tellus. Ut nec magna in elit posuere vulputate. Vivamus sit amet orci vestibulum, bibendum ligula eget, pharetra magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sodales, est non faucibus tincidunt, eros diam tincidunt leo, vitae pharetra risus justo sed magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla id sodales eros. Integer viverra erat est, id sollicitudin tellus tristique nec. Pellentesque ut metus nec dui molestie facilisis eu ut felis. Nam porttitor sodales egestas. Proin non nisi libero. Fusce ultrices tincidunt urna eget aliquet.
+					<br><br>
+					Sed tortor eros, tincidunt in pharetra at, congue eget tellus. Ut nec magna in elit posuere vulputate. Vivamus sit amet orci vestibulum, bibendum ligula eget, pharetra magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sodales, est non faucibus tincidunt, eros diam tincidunt leo, vitae pharetra risus justo sed magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla id sodales eros. Integer viverra erat est, id sollicitudin tellus tristique nec. Pellentesque ut metus nec dui molestie facilisis eu ut felis. Nam porttitor sodales egestas. Proin non nisi libero. Fusce ultrices tincidunt urna eget aliquet.
+			</div>
+			<div class="pop-up-content pop-up-contact" id="pop-up-content-contact">
+				<div id="contact-info" class="column">
+					<div id="contact-phone" class="wow fadeInLeft" data-wow-delay="0s">
+						<h2>Phone</h2>
+						<p>(403) 111-2222</p>
+					</div>
+					<div id="contact-address" class="wow fadeInLeft" data-wow-delay=".2s">
+						<h2>Address</h2>
+						<p>1111 Ross Street
+							<br> Red Deer, Alberta</p>
+					</div>
+				</div>
+				<div id="google-map" class="column"></div>
+			</div>
+		</div>
+		<a href="#0" class="cd-top">Top</a>
+	</div>
+	
+	<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+	href="https://unsplash.com/@happilyabstract?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+	target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Lena Orwig">
+	   <span style="display:inline-block;padding:2px 3px">
+		   <svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white"
+			viewBox="0 0 32 32">
+			   <title>unsplash-logo</title>
+			   <path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path>
+		   </svg>
+	   </span>
+	   <span style="display:inline-block;padding:2px 3px">Lena Orwig</span>
+   </a>
+</body>
+
+</html>
